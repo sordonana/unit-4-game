@@ -1,0 +1,37 @@
+#rndNumber{
+    text-align: center;
+    font-size: 40px;
+}
+
+#score{
+    font-size: 40px;
+    display: block;
+    text-align: center;
+}
+
+.crs {
+    background-color: transparent;
+}
+
+.cristales{
+
+    background-color: transparent;
+
+}
+
+#anuncios{
+
+    font-size: 100px;
+    text-align: center;
+}
+
+.lead-1{
+
+    font-size: 14px;
+
+}
+
+.jumbotron{
+    padding: 0px;
+
+}

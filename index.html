@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Crystal Game</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="container" style="background-image:url(assets/images/stripes-light.png)">
+        <div class="jumbotron" style="background-image:url(assets/images/country-quilt.png)">
+            <h1 class="display-5" style="color:cornflowerblue">Crystals Collector</h1>
+            <p class="lead-1" style="color:darkgreen">You will be given a random number at the start of the game. There are four crystals below, by clicking on a cristal you will add a specific amount of points to your total score</p>
+            <p class="lead-1" style="color:darkgreen">You win the game by matching your total score to random number, you lose the game if yopur total score goes above the random number, The value of each crystal is hidden from you until you click it</p>
+            
+            <p class="lead-1" style="color:darkgreen">Each time when the game starts, the game will change the value of each crystal</p>
+            <hr class="my-2">
+            
+        </div>
+            
+        <div class="row">
+            <div class="col-sm-3" style="background-color:black; color:white; height: 100px">
+                <p class="random">Random Number:</p>
+                <p id="rndNumber" class="rnd" style="color:white"></p>
+            </div>
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-3" style="background-color:grey; color:white">
+                <p>WINS:<span id="wins"></span></p>
+                <p>LOOSES:<span id="looses"></span></p>
+            </div>
+
+        </div>
+        <hr class="my-2">
+
+
+        <div class="row">
+            <div class="col-sm-3 crs">
+                <button id="cristal1"><img src="assets/images/cristal1.png" alt="Crystal-1" class="cristales"></button>
+            </div>
+            <div class="col-sm-3 crs">
+                <button id="cristal2"><img src="assets/images/cristal2.png" alt="Crystal-2" class="cristales"></button>
+            </div>
+            <div class="col-sm-3 crs">
+                <button id="cristal3"><img src="assets/images/cristal3.png" alt="Crystal-3" class="cristales"></button>
+            </div>
+            <div class="col-sm-3 crs">
+                <button id="cristal4"><img src="assets/images/cristal4.png" alt="Crystal-4" class="cristales"></button>
+            </div>
+        </div>
+        <br>
+        <hr class="my-2">
+
+        <div class="row">
+            <div class="col-sm-3" style="background-color:black; color:white; height: 100px">
+            <p class="score">Your total score is:</p>
+            <span class="score" id="score"></span>
+            </div>
+            <div class="col-sm-9">
+                <p id="anuncios"></p>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+    </script>
+
+    
+  </body>
+</html>
